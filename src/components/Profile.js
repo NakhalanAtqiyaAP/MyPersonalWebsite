@@ -252,12 +252,11 @@ const Counter = ({ target, duration = 2000 }) => {
                 </h4>
                 <div className="bg-white pixel-border p-4">
                   <AboutMeTyping 
-                    text={`
-              I have over 3 years of programming experience, most of which has focused on website programming. 
+                    text= 
+              {`I  have over 3 years of programming experience, most of which has focused on website programming. 
               However, I also enjoy game development. 
               It allows me to combine the systematic world with the imaginative world.
-              I have a passion for coding development and creating gameplay ideas and stories.
-                  `}
+              I have a passion for coding development and creating gameplay ideas and stories.`}
                     speed={15} 
                   />
                 </div>
