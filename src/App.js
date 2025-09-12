@@ -6,6 +6,7 @@ import Portfolio from './components/Portfolio';
 import Certificates from './components/Certificates';
 import Footer from './components/Footer';
 
+import GameSimpe from './components/SimpleGame';
 
 function App() {
   const [activeSection, setActiveSection] = useState('profile');
@@ -88,6 +89,8 @@ function App() {
       <div ref={certificatesRef}>
         <Certificates />
       </div>
+
+      <GameSimpe />
       
       <Footer />
     </div>
