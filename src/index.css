@@ -1,0 +1,184 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --primary-blue: #2563EB;
+  --primary-red: #DC2626;
+  --primary-yellow: #FBBF24;
+  --dark-bg: #0F172A;
+  --light-bg: #F8FAFC;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto Mono', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--light-bg);
+  color: #1E293B;
+}
+
+code {
+  font-family: 'Roboto Mono', monospace;
+}
+
+/* Pixel theme styles */
+.pixel-font {
+  font-family: 'Press Start 2P', cursive;
+}
+
+.pixel-border {
+  border: 2px solid #1E293B;
+  box-shadow: 4px 4px 0px #1E293B;
+  transition: all 0.1s ease;
+}
+
+.pixel-border:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0px #1E293B;
+}
+
+.pixel-button {
+  border: 2px solid #1E293B;
+  box-shadow: 4px 4px 0px #1E293B;
+  transition: all 0.1s ease;
+}
+
+.pixel-button:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0px #1E293B;
+}
+
+.pixel-button:active {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0px #1E293B;
+}
+
+/* Grid background */
+.pixel-grid {
+  background-size: 20px 20px;
+  background-image: 
+    linear-gradient(to right, #E2E8F0 1px, transparent 1px),
+    linear-gradient(to bottom, #E2E8F0 1px, transparent 1px);
+}
+
+/* Animated pixel corner */
+.pixel-corner::before {
+  content: '';
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background: #2563EB;
+  top: -6px;
+  left: -6px;
+}
+
+/* Glitch effect */
+.glitch-text {
+  position: relative;
+  display: inline-block;
+}
+
+.glitch-text::before,
+.glitch-text::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.glitch-text::before {
+  left: 2px;
+  text-shadow: -2px 0 #FF0000;
+  clip: rect(44px, 450px, 56px, 0);
+  animation: glitch-anim 5s infinite linear alternate-reverse;
+}
+
+.glitch-text::after {
+  left: -2px;
+  text-shadow: -2px 0 #00FFFF;
+  clip: rect(44px, 450px, 56px, 0);
+  animation: glitch-anim2 5s infinite linear alternate-reverse;
+}
+
+@keyframes glitch-anim {
+  0% { clip: rect(42px, 9999px, 44px, 0); }
+  5% { clip: rect(12px, 9999px, 59px, 0); }
+  10% { clip: rect(48px, 9999px, 29px, 0); }
+  15% { clip: rect(42px, 9999px, 73px, 0); }
+  20% { clip: rect(63px, 9999px, 27px, 0); }
+  25% { clip: rect(34px, 9999px, 55px, 0); }
+  30% { clip: rect(86px, 9999px, 73px, 0); }
+  35% { clip: rect(20px, 9999px, 20px, 0); }
+  40% { clip: rect(26px, 9999px, 60px, 0); }
+  45% { clip: rect(25px, 9999px, 66px, 0); }
+  50% { clip: rect(57px, 9999px, 98px, 0); }
+  55% { clip: rect(5px, 9999px, 46px, 0); }
+  60% { clip: rect(82px, 9999px, 31px, 0); }
+  65% { clip: rect(54px, 9999px, 27px, 0); }
+  70% { clip: rect(28px, 9999px, 99px, 0); }
+  75% { clip: rect(45px, 9999px, 69px, 0); }
+  80% { clip: rect(23px, 9999px, 85px, 0); }
+  85% { clip: rect(54px, 9999px, 84px, 0); }
+  90% { clip: rect(45px, 9999px, 47px, 0); }
+  95% { clip: rect(24px, 9999px, 23px, 0); }
+  100% { clip: rect(32px, 9999px, 92px, 0); }
+}
+
+@keyframes glitch-anim2 {
+  0% { clip: rect(65px, 9999px, 100px, 0); }
+  5% { clip: rect(52px, 9999px, 74px, 0); }
+  10% { clip: rect(79px, 9999px, 85px, 0); }
+  15% { clip: rect(75px, 9999px, 5px, 0); }
+  20% { clip: rect(67px, 9999px, 61px, 0); }
+  25% { clip: rect(14px, 9999px, 79px, 0); }
+  30% { clip: rect(1px, 9999px, 66px, 0); }
+  35% { clip: rect(86px, 9999px, 30px, 0); }
+  40% { clip: rect(23px, 9999px, 98px, 0); }
+  45% { clip: rect(85px, 9999px, 72px, 0); }
+  50% { clip: rect(71px, 9999px, 75px, 0); }
+  55% { clip: rect(2px, 9999px, 48px, 0); }
+  60% { clip: rect(80px, 9999px, 87px, 0); }
+  65% { clip: rect(64px, 9999px, 14px, 0); }
+  70% { clip: rect(32px, 9999px, 97px, 0); }
+  75% { clip: rect(47px, 9999px, 62px, 0); }
+  80% { clip: rect(65px, 9999px, 51px, 0); }
+  85% { clip: rect(5px, 9999px, 17px, 0); }
+  90% { clip: rect(6px, 9999px, 43px, 0); }
+  95% { clip: rect(23px, 9999px, 49px, 0); }
+  100% { clip: rect(48px, 9999px, 27px, 0); }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2563EB;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1D4ED8;
+}
+
+/* Animation for section transitions */
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
