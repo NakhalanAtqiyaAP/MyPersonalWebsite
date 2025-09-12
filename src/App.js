@@ -5,18 +5,16 @@ import Experience from './components/Experience';
 import Portfolio from './components/Portfolio';
 import Certificates from './components/Certificates';
 import Footer from './components/Footer';
-import { DataProvider } from './Context/DataContext';
+
 
 function App() {
   const [activeSection, setActiveSection] = useState('profile');
-  
-  // Refs untuk setiap section
+
   const profileRef = useRef(null);
   const experienceRef = useRef(null);
   const portfolioRef = useRef(null);
   const certificatesRef = useRef(null);
 
-  // Fungsi untuk scroll ke section tertentu
   const scrollToSection = (sectionId) => {
     setActiveSection(sectionId);
     
@@ -35,7 +33,6 @@ function App() {
     }
   };
 
-  // Effect untuk handle scroll dan menentukan section aktif
   useEffect(() => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY + 100;
@@ -73,7 +70,6 @@ function App() {
   }, []);
 
   return (
-     <DataProvider>
     <div className="App bg-white min-h-screen">
       <Header activeSection={activeSection} setActiveSection={scrollToSection} />
       
@@ -95,7 +91,6 @@ function App() {
       
       <Footer />
     </div>
-    </DataProvider>
   );
 }
 

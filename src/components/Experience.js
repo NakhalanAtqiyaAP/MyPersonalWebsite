@@ -74,7 +74,6 @@ const Experience = () => {
               }}
               transition={{ duration: 0.4 }}
             >
-              {/* Blue square accent */}
               <div className="absolute -left-1 md:-left-2 top-6 w-3 h-3 md:w-4 md:h-4 bg-blue-600 transform rotate-45"></div>
 
               {/* Header */}

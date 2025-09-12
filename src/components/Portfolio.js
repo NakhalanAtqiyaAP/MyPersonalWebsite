@@ -18,7 +18,7 @@ import pdfMVC from '../assets/Portofolio/mvc.pdf';
 const Portfolio = () => {
   const [visibleCount, setVisibleCount] = useState(4);
   const [showAll, setShowAll] = useState(false);
-  const [popupMedia, setPopupMedia] = useState(null); // untuk popup gambar/video
+  const [popupMedia, setPopupMedia] = useState(null);
 
   const projects = [
     {

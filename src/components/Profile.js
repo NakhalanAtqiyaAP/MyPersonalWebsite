@@ -4,7 +4,6 @@ import CV from '../assets/nakhalanatqiya_CV.pdf';
 import { FaGamepad, FaCode, FaMusic, FaBook, FaCamera, FaUtensils, FaPalette } from 'react-icons/fa';
 
 const Profile = () => {
-  // Daftar hobbies dengan icon
   const hobbies = [
     { icon: <FaGamepad className="text-lg" />, name: "Gaming", color: "bg-red-100 text-red-600" },
     { icon: <FaPalette className="text-lg" />, name: "Painting", color: "bg-blue-100 text-blue-600" },

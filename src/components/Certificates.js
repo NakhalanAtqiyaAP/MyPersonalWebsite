@@ -81,13 +81,11 @@ const Certificates = () => {
     },
   ];
 
-  // Fungsi untuk memuat lebih banyak sertifikat
   const loadMore = () => {
     setVisibleCount(certificates.length);
     setShowAll(true);
   };
 
-  // Fungsi untuk mengurangi jumlah sertifikat yang ditampilkan
   const showLess = () => {
     setVisibleCount(4);
     setShowAll(false);
