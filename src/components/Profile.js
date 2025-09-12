@@ -252,9 +252,12 @@ const Counter = ({ target, duration = 2000 }) => {
                 </h4>
                 <div className="bg-white pixel-border p-4">
                   <AboutMeTyping 
-                    text={`I am a passionate Game Developer with 3+ years of experience creating immersive games for mobile and PC platforms. 
-              My expertise includes Unity, C#, game mechanics design, and optimizing performance for the best player experience. 
-              I love turning creative ideas into playable realities and solving complex technical challenges.`}
+                    text={`
+              I have over 3 years of programming experience, most of which has focused on website programming. 
+              However, I also enjoy game development. 
+              It allows me to combine the systematic world with the imaginative world.
+              I have a passion for coding development and creating gameplay ideas and stories.
+                  `}
                     speed={15} 
                   />
                 </div>
