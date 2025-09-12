@@ -10,7 +10,7 @@ const GameMenu = () => {
   ];
 
   return (
-    <section id="game-zone" className="py-8 md:py-12 px-4 bg-gray-100">
+    <section id="game-zone" className="py-8 md:py-12 px-4 pixel-grid min-h-screen flex items-center">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-8">
           <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-2 pixel-font">
