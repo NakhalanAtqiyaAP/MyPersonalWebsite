@@ -1,12 +1,17 @@
 {
   "files": {
-    "main.css": "/MyPersonalWebsite/static/css/main.ed4839ae.css",
-    "main.js": "/MyPersonalWebsite/static/js/main.d3a9791a.js",
+    "main.css": "/MyPersonalWebsite/static/css/main.e0052199.css",
+    "main.js": "/MyPersonalWebsite/static/js/main.56e7f4ac.js",
     "static/js/65.2036fc41.chunk.js": "/MyPersonalWebsite/static/js/65.2036fc41.chunk.js",
+    "static/media/ThePillVideo.mp4": "/MyPersonalWebsite/static/media/ThePillVideo.1cf00543e350cee6345c.mp4",
     "static/media/gameUnity.mp4": "/MyPersonalWebsite/static/media/gameUnity.3f3b39cde059737c428c.mp4",
+    "static/media/ADayWhenIWakeupPrototipe.mp4": "/MyPersonalWebsite/static/media/ADayWhenIWakeupPrototipe.beebd110f42565ed08e1.mp4",
     "static/media/backendCyberlabs.png": "/MyPersonalWebsite/static/media/backendCyberlabs.5f0a679722e8e9b672b8.png",
     "static/media/VueJSWantek.png": "/MyPersonalWebsite/static/media/VueJSWantek.622f7e395b8af441af24.png",
+    "static/media/daywheniwakeup.png": "/MyPersonalWebsite/static/media/daywheniwakeup.4168514c8a6f884318d0.png",
     "static/media/GameSquarepng.png": "/MyPersonalWebsite/static/media/GameSquarepng.2f44a0935b7cc4e88563.png",
+    "static/media/layananmasyarakat.png": "/MyPersonalWebsite/static/media/layananmasyarakat.a22ce4083e0bd96e404b.png",
+    "static/media/Sanity.png": "/MyPersonalWebsite/static/media/Sanity.cc2c57573e6dee0e7480.png",
     "static/media/globalgamejam.png": "/MyPersonalWebsite/static/media/globalgamejam.f5d6fe9d8593d727b109.png",
     "static/media/SqlDicoding.png": "/MyPersonalWebsite/static/media/SqlDicoding.8113aeffd4df98f6c986.png",
     "static/media/JavaDicoding.png": "/MyPersonalWebsite/static/media/JavaDicoding.492f89fb626300b6e995.png",
@@ -14,22 +19,24 @@
     "static/media/visualdata.png": "/MyPersonalWebsite/static/media/visualdata.50f94c6387c92696cdc8.png",
     "static/media/GameUnity\u0000#1.png": "/MyPersonalWebsite/static/media/GameUnity#1.90f3309fd2410bab12d2.png",
     "static/media/endlessgame.png": "/MyPersonalWebsite/static/media/endlessgame.149758e5ae9139267017.png",
+    "static/media/WayOfLight.png": "/MyPersonalWebsite/static/media/WayOfLight.deebe2b02029ee4880ff.png",
     "static/media/gameSquare.pdf": "/MyPersonalWebsite/static/media/gameSquare.89eb2788c206dc8acc7f.pdf",
     "static/media/landingpage.pdf": "/MyPersonalWebsite/static/media/landingpage.86a893bf01bab123a4ae.pdf",
     "static/media/igdx2024.png": "/MyPersonalWebsite/static/media/igdx2024.561cfabdf2d9ca459d10.png",
     "static/media/myprofile2.jpg": "/MyPersonalWebsite/static/media/myprofile2.d100452086b31708f755.jpg",
     "static/media/nakhalanatqiya_CV.pdf": "/MyPersonalWebsite/static/media/nakhalanatqiya_CV.af2cbd03bb31175ceb20.pdf",
     "static/media/mvc.pdf": "/MyPersonalWebsite/static/media/mvc.692031aca14a1cead1cb.pdf",
+    "static/media/thePill.png": "/MyPersonalWebsite/static/media/thePill.2b7b5cf639c51dc75a08.png",
     "static/media/landingpage.png": "/MyPersonalWebsite/static/media/landingpage.52275d85a30f68f1a9db.png",
     "static/media/mvc.png": "/MyPersonalWebsite/static/media/mvc.ae8527dc46bed53abe94.png",
     "static/media/translateWeb.png": "/MyPersonalWebsite/static/media/translateWeb.d5aaee493ed7936fe729.png",
     "index.html": "/MyPersonalWebsite/index.html",
-    "main.ed4839ae.css.map": "/MyPersonalWebsite/static/css/main.ed4839ae.css.map",
-    "main.d3a9791a.js.map": "/MyPersonalWebsite/static/js/main.d3a9791a.js.map",
+    "main.e0052199.css.map": "/MyPersonalWebsite/static/css/main.e0052199.css.map",
+    "main.56e7f4ac.js.map": "/MyPersonalWebsite/static/js/main.56e7f4ac.js.map",
     "65.2036fc41.chunk.js.map": "/MyPersonalWebsite/static/js/65.2036fc41.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed4839ae.css",
-    "static/js/main.d3a9791a.js"
+    "static/css/main.e0052199.css",
+    "static/js/main.56e7f4ac.js"
   ]
 }
