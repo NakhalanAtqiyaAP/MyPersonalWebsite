@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MyPersonalWebsite/static/css/main.312c3a21.css",
-    "main.js": "/MyPersonalWebsite/static/js/main.5e2ff694.js",
+    "main.js": "/MyPersonalWebsite/static/js/main.97df7eae.js",
     "static/js/65.2036fc41.chunk.js": "/MyPersonalWebsite/static/js/65.2036fc41.chunk.js",
     "static/media/ThePillVideo.mp4": "/MyPersonalWebsite/static/media/ThePillVideo.1cf00543e350cee6345c.mp4",
     "static/media/gameUnity.mp4": "/MyPersonalWebsite/static/media/gameUnity.3f3b39cde059737c428c.mp4",
@@ -32,11 +32,11 @@
     "static/media/translateWeb.png": "/MyPersonalWebsite/static/media/translateWeb.d5aaee493ed7936fe729.png",
     "index.html": "/MyPersonalWebsite/index.html",
     "main.312c3a21.css.map": "/MyPersonalWebsite/static/css/main.312c3a21.css.map",
-    "main.5e2ff694.js.map": "/MyPersonalWebsite/static/js/main.5e2ff694.js.map",
+    "main.97df7eae.js.map": "/MyPersonalWebsite/static/js/main.97df7eae.js.map",
     "65.2036fc41.chunk.js.map": "/MyPersonalWebsite/static/js/65.2036fc41.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.312c3a21.css",
-    "static/js/main.5e2ff694.js"
+    "static/js/main.97df7eae.js"
   ]
 }
