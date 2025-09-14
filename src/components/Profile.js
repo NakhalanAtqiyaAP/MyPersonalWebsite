@@ -269,7 +269,7 @@ const Profile = () => {
                       <span className="text-xs text-gray-700">Projects</span>
                     </div>
                     <span className="text-lg font-bold text-blue-600 pixel-font">
-                      <Counter target="8+" />
+                      <Counter target="10+" />
                     </span>
                   </div>
 
