@@ -6,7 +6,7 @@ import Portfolio from './components/Portfolio';
 import Certificates from './components/Certificates';
 import Footer from './components/Footer';
 
-import GameSimpe from './components/SimpleGame';
+import GameSimple from './components/GameMenu';
 
 function App() {
   const [activeSection, setActiveSection] = useState('profile');
@@ -90,7 +90,7 @@ function App() {
         <Certificates />
       </div>
 
-      <GameSimpe />
+      <GameSimple />
       
       <Footer />
     </div>

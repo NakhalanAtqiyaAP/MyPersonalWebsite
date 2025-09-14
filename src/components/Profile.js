@@ -14,7 +14,8 @@ import {
   FaLinkedin,
   FaEnvelope,
   FaTimes,
-  FaInstagram
+  FaInstagram,
+  FaMedium
 } from 'react-icons/fa';
 
 const Profile = () => {
@@ -59,6 +60,12 @@ const Profile = () => {
       name: "LinkedIn",
       url: "https://www.linkedin.com/in/nakhalan-atqiya-arifin-putra-4b5b082a3/",
       color: "bg-blue-700 hover:bg-blue-800"
+    },
+    {
+      icon: <FaMedium className="text-2xl" />,
+      name: "Medium",
+      url: "https://medium.com/@nakhalanatqiya",
+      color: "bg-gray-900 hover:bg-gray-800"
     }
   ];
 
