@@ -182,7 +182,6 @@ const FlappyBirdGame = () => {
             height: '30px'
           }}
         >
-          🐦
         </div>
 
         {/* Pipes */}
