@@ -313,7 +313,7 @@ const Profile = () => {
                 <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-2 pixel-font">
                   <span className="glitch-text" data-text="HELLO_WORLD">HELLO_WORLD</span>
                 </h2>
-                <h3 className="text-xl text-blue-600 mb-4 pixel-font">{"// Software Engineer"}</h3>
+                <h3 className="text-xl text-blue-600 mb-4 pixel-font">{"// Software Developer"}</h3>
                 <div className="h-1 w-20 bg-blue-600 mx-auto lg:mx-0 mb-4"></div>
               </div>
               
@@ -453,7 +453,7 @@ const Profile = () => {
                   onClick={() => setIsModalOpen(true)}
                   className="flex-1 pixel-button bg-green-600 text-white py-3 text-sm md:text-base hover:bg-green-700"
                 >
-                  CONTACT ME
+                  My Contacts
                 </motion.button>
               </div>
             </div>
