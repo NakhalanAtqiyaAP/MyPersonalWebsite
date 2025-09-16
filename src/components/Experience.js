@@ -26,6 +26,14 @@ const Experience = () => {
       period: "2024",
       description: "Learn about IoT technology development using the Python programming language and make MQTT simulations at Wokwi and Mosquitto",
       technologies: ["Python", "IoT"]
+    },
+    {
+      id: 4,
+      title: "Become CEO Lightcess Production",
+      company: "Lightcess Production",
+      period: "2024 - 2025",
+      description: "I became the CEO of a game studio that I created myself with my school friends",
+      technologies: ["Leadership", "Game Developer"]
     }
   ];
 
