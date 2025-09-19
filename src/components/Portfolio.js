@@ -26,7 +26,7 @@ import ADayWhenIWakeUp from '../assets/Portofolio/daywheniwakeup.png';
 import aDayWhenIWakeUpVideo from '../assets/Portofolio/video/ADayWhenIWakeupPrototipe.mp4';
 
 import wayoflight from '../assets/Portofolio/WayOfLight.png';
-import wayoflightVideo from '../assets/Portofolio/video/ThePillVideo.mp4';
+import wayoflightVideo from '../assets/Portofolio/video/ThirdGameplayVideo.mp4';
 
 const Portfolio = () => {
   const [visibleCount, setVisibleCount] = useState(4);
